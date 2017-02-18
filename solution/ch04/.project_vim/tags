@@ -1,0 +1,228 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AvlNode	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^typedef struct AvlNode$/;"	s	file:
+AvlNode::Depth	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	int		Depth;$/;"	m	struct:AvlNode	file:	access:public
+AvlNode::Dist	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	int		Dist;$/;"	m	struct:AvlNode	file:	access:public
+AvlNode::Element	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	ElementType	Element;$/;"	m	struct:AvlNode	file:	access:public
+AvlNode::Height	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	int		Height;$/;"	m	struct:AvlNode	file:	access:public
+AvlNode::Left	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	AvlTree		Left;$/;"	m	struct:AvlNode	file:	access:public
+AvlNode::List	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	list_head_t	List;$/;"	m	struct:AvlNode	file:	access:public
+AvlNode::Right	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	AvlTree		Right;$/;"	m	struct:AvlNode	file:	access:public
+AvlNode_t	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^} AvlNode_t;$/;"	t	typeref:struct:AvlNode	file:
+AvlTree	/home/tgni/workspace/weiss/solution/ch04/avltree.h	/^typedef struct AvlNode *AvlTree;$/;"	t	typeref:struct:AvlNode
+BOOLEAN	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef unsigned char		BOOLEAN;$/;"	t
+BUF	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static char BUF[1024] = {0};$/;"	v	file:
+BUF	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^static char BUF[1024] = {0};$/;"	v	file:
+BUF_POS	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static int32_t BUF_POS = 0;$/;"	v	file:
+BUF_POS	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^static int32_t BUF_POS = 0;$/;"	v	file:
+ComputeDistAndDepth	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^void ComputeDistAndDepth( AvlTree T )$/;"	f	signature:( AvlTree T )
+ComputeWidth	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static inline int32_t ComputeWidth(int32_t X)$/;"	f	file:	signature:(int32_t X)
+CreateNewNode	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^AvlTree CreateNewNode(ElementType X)$/;"	f	signature:(ElementType X)
+DEPTH	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static int32_t DEPTH = 0;$/;"	v	file:
+DISABLE	/home/tgni/workspace/weiss/solution/ch04/types.h	57;"	d
+DISPLAY_MSG	/home/tgni/workspace/weiss/solution/ch04/types.h	55;"	d
+DIST	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static int32_t DIST  = 0;$/;"	v	file:
+DIST	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^static int32_t DIST  = 0;$/;"	v	file:
+DIST_MAX	/home/tgni/workspace/weiss/solution/ch04/avltree.c	9;"	d	file:
+DIST_MAX	/home/tgni/workspace/weiss/solution/ch04/tree.c	22;"	d	file:
+Delete	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^AvlTree Delete( ElementType X, AvlTree T )$/;"	f	signature:( ElementType X, AvlTree T )
+Depth	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	int		Depth;$/;"	m	struct:AvlNode	file:	access:public
+Dist	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	int		Dist;$/;"	m	struct:AvlNode	file:	access:public
+DoubleRotateWithLeft	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static Position DoubleRotateWithLeft( Position K3 )$/;"	f	file:	signature:( Position K3 )
+DoubleRotateWithRight	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static Position DoubleRotateWithRight( Position K1 )$/;"	f	file:	signature:( Position K1 )
+ENABLE	/home/tgni/workspace/weiss/solution/ch04/types.h	58;"	d
+ERROR	/home/tgni/workspace/weiss/solution/ch04/types.h	83;"	d
+Element	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	ElementType	Element;$/;"	m	struct:AvlNode	file:	access:public
+ElementType	/home/tgni/workspace/weiss/solution/ch04/avltree.h	/^typedef int ElementType;$/;"	t
+Error	/home/tgni/workspace/weiss/solution/ch04/fatal.h	4;"	d
+FALSE	/home/tgni/workspace/weiss/solution/ch04/types.h	75;"	d
+FP32	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef float			FP32;$/;"	t
+FP64	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef double			FP64;$/;"	t
+FatalError	/home/tgni/workspace/weiss/solution/ch04/fatal.h	5;"	d
+Find	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^Position Find( ElementType X, AvlTree T )$/;"	f	signature:( ElementType X, AvlTree T )
+FindMax	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^Position FindMax( AvlTree T )$/;"	f	signature:( AvlTree T )
+FindMin	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^Position FindMin( AvlTree T )$/;"	f	signature:( AvlTree T )
+HLIST_HEAD	/home/tgni/workspace/weiss/solution/ch04/list.h	276;"	d
+HLIST_HEAD_INIT	/home/tgni/workspace/weiss/solution/ch04/list.h	275;"	d
+HPrintAvlTree	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^void HPrintAvlTree(AvlTree T)$/;"	f	signature:(AvlTree T)
+Height	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	int		Height;$/;"	m	struct:AvlNode	file:	access:public
+Height	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static int Height( Position P )$/;"	f	file:	signature:( Position P )
+INIT_HLIST_HEAD	/home/tgni/workspace/weiss/solution/ch04/list.h	277;"	d
+INIT_HLIST_NODE	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline void INIT_HLIST_NODE(struct hlist_node *h)$/;"	f	signature:(struct hlist_node *h)
+INIT_LIST_HEAD	/home/tgni/workspace/weiss/solution/ch04/list.h	29;"	d
+INT16S	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef signed short		INT16S;$/;"	t
+INT16U	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef unsigned short		INT16U;$/;"	t
+INT32S	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef signed int		INT32S;$/;"	t
+INT32U	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef unsigned int		INT32U;$/;"	t
+INT64S	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef long long		INT64S;$/;"	t
+INT64U	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef unsigned long long	INT64U;$/;"	t
+INT8S	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef signed char		INT8S;$/;"	t
+INT8U	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef unsigned char		INT8U;$/;"	t
+Insert	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^AvlTree Insert( ElementType X, AvlTree T )$/;"	f	signature:( ElementType X, AvlTree T )
+LEVEL	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^static int32_t LEVEL = 0;$/;"	v	file:
+LIST_HEAD	/home/tgni/workspace/weiss/solution/ch04/list.h	26;"	d
+LIST_HEAD_INIT	/home/tgni/workspace/weiss/solution/ch04/list.h	24;"	d
+Left	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	AvlTree		Left;$/;"	m	struct:AvlNode	file:	access:public
+List	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	list_head_t	List;$/;"	m	struct:AvlNode	file:	access:public
+LoopInsert	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^AvlTree LoopInsert(ElementType X, AvlTree T)$/;"	f	signature:(ElementType X, AvlTree T)
+MAX	/home/tgni/workspace/weiss/solution/ch04/types.h	60;"	d
+MAX_NR	/home/tgni/workspace/weiss/solution/ch04/tool.c	5;"	d	file:
+MIN	/home/tgni/workspace/weiss/solution/ch04/types.h	61;"	d
+MakeEmpty	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^AvlTree MakeEmpty( AvlTree T )$/;"	f	signature:( AvlTree T )
+Max	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static int Max( int Lhs, int Rhs )$/;"	f	file:	signature:( int Lhs, int Rhs )
+NELEMS	/home/tgni/workspace/weiss/solution/ch04/tool.h	3;"	d
+NR_DEPTH_MAX	/home/tgni/workspace/weiss/solution/ch04/avltree.c	391;"	d	file:
+NULL	/home/tgni/workspace/weiss/solution/ch04/types.h	67;"	d
+OK	/home/tgni/workspace/weiss/solution/ch04/types.h	79;"	d
+Position	/home/tgni/workspace/weiss/solution/ch04/avltree.h	/^typedef struct AvlNode *Position;$/;"	t	typeref:struct:AvlNode
+PrintNode	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^void PrintNode(AvlTree T)$/;"	f	signature:(AvlTree T)
+Retrieve	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^ElementType Retrieve( Position P )$/;"	f	signature:( Position P )
+Right	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^	AvlTree		Right;$/;"	m	struct:AvlNode	file:	access:public
+SingleRotateWithLeft	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static Position SingleRotateWithLeft( Position K2 )$/;"	f	file:	signature:( Position K2 )
+SingleRotateWithRight	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static Position SingleRotateWithRight( Position K1 )$/;"	f	file:	signature:( Position K1 )
+TRUE	/home/tgni/workspace/weiss/solution/ch04/types.h	71;"	d
+US_SWAP	/home/tgni/workspace/weiss/solution/ch04/types.h	62;"	d
+VPrintAvlTree	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^void VPrintAvlTree(AvlTree T)$/;"	f	signature:(AvlTree T)
+WIDTH	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static int32_t WIDTH = 0;$/;"	v	file:
+_AvlTree_H	/home/tgni/workspace/weiss/solution/ch04/avltree.h	4;"	d
+_LIST_H	/home/tgni/workspace/weiss/solution/ch04/list.h	2;"	d
+_TYPES_H	/home/tgni/workspace/weiss/solution/ch04/types.h	11;"	d
+__LAST	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^static int __LAST[NR_DEPTH_MAX]; $/;"	v	file:
+__QUE_H__	/home/tgni/workspace/weiss/solution/ch04/que.h	9;"	d
+__STACK_H__	/home/tgni/workspace/weiss/solution/ch04/stack.h	8;"	d
+__TREE_H__	/home/tgni/workspace/weiss/solution/ch04/tree.h	2;"	d
+__hlist_del	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline void __hlist_del(struct hlist_node *n)$/;"	f	signature:(struct hlist_node *n)
+__insert	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^search_tree_t * __insert(element_t e, uint32_t level, uint32_t dist, search_tree_t * t)$/;"	f	signature:(element_t e, uint32_t level, uint32_t dist, search_tree_t * t)
+__isr__	/home/tgni/workspace/weiss/solution/ch04/types.h	50;"	d
+__list_add	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static __inline__ void __list_add(struct list_head * _new,$/;"	f	signature:(struct list_head * _new, struct list_head * _prev, struct list_head * _next)
+__list_add	/home/tgni/workspace/weiss/solution/ch04/list.h	51;"	d
+__list_del	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static __inline__ void __list_del(struct list_head * _prev,$/;"	f	signature:(struct list_head * _prev, struct list_head * _next)
+__list_del	/home/tgni/workspace/weiss/solution/ch04/list.h	119;"	d
+__plc_wq__	/home/tgni/workspace/weiss/solution/ch04/types.h	51;"	d
+__tmr__	/home/tgni/workspace/weiss/solution/ch04/types.h	52;"	d
+container_of	/home/tgni/workspace/weiss/solution/ch04/list.h	218;"	d
+delete	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^search_tree_t * delete(element_t e, search_tree_t * t)$/;"	f	signature:(element_t e, search_tree_t * t)
+dequeue	/home/tgni/workspace/weiss/solution/ch04/que.c	/^void * dequeue(que_t *q)$/;"	f	signature:(que_t *q)
+dist	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	uint32_t dist;$/;"	m	struct:tree_node_s	file:	access:public
+e	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	element_t e;$/;"	m	struct:tree_node_s	file:	access:public
+element_t	/home/tgni/workspace/weiss/solution/ch04/tree.h	/^typedef uint32_t element_t;$/;"	t
+enqueue	/home/tgni/workspace/weiss/solution/ch04/que.c	/^void enqueue(que_t *q, void *obj)$/;"	f	signature:(que_t *q, void *obj)
+find	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^position_t * find(element_t e, search_tree_t * t)$/;"	f	signature:(element_t e, search_tree_t * t)
+find_max	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^position_t * find_max(search_tree_t * t)$/;"	f	signature:(search_tree_t * t)
+find_min	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^position_t * find_min(search_tree_t * t)$/;"	f	signature:(search_tree_t * t)
+first	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node	access:public
+head	/home/tgni/workspace/weiss/solution/ch04/que.h	/^	struct list_head head;$/;"	m	struct:que_s	typeref:struct:que_s::list_head	access:public
+head	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	list_head_t head;$/;"	m	struct:stack_s	access:public
+hlist_add_after	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline void hlist_add_after(struct hlist_node *n,$/;"	f	signature:(struct hlist_node *n, struct hlist_node *next)
+hlist_add_before	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline void hlist_add_before(struct hlist_node *n,$/;"	f	signature:(struct hlist_node *n, struct hlist_node *next)
+hlist_add_head	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline void hlist_add_head(struct hlist_node *n, struct hlist_head *h)$/;"	f	signature:(struct hlist_node *n, struct hlist_head *h)
+hlist_del	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline void hlist_del(struct hlist_node *n)$/;"	f	signature:(struct hlist_node *n)
+hlist_del_init	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline void hlist_del_init(struct hlist_node *n)$/;"	f	signature:(struct hlist_node *n)
+hlist_empty	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline int hlist_empty(const struct hlist_head *h)$/;"	f	signature:(const struct hlist_head *h)
+hlist_entry	/home/tgni/workspace/weiss/solution/ch04/list.h	362;"	d
+hlist_for_each	/home/tgni/workspace/weiss/solution/ch04/list.h	365;"	d
+hlist_for_each_safe	/home/tgni/workspace/weiss/solution/ch04/list.h	368;"	d
+hlist_head	/home/tgni/workspace/weiss/solution/ch04/list.h	/^struct hlist_head {$/;"	s
+hlist_head::first	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node	access:public
+hlist_move_list	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline void hlist_move_list(struct hlist_head *old,$/;"	f	signature:(struct hlist_head *old, struct hlist_head *new)
+hlist_node	/home/tgni/workspace/weiss/solution/ch04/list.h	/^struct hlist_node {$/;"	s
+hlist_node::next	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node	access:public
+hlist_node::pprev	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::	access:public
+hlist_unhashed	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static inline int hlist_unhashed(const struct hlist_node *h)$/;"	f	signature:(const struct hlist_node *h)
+htonl	/home/tgni/workspace/weiss/solution/ch04/types.h	41;"	d
+htons	/home/tgni/workspace/weiss/solution/ch04/types.h	40;"	d
+insert	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^search_tree_t * insert(element_t e, search_tree_t * t)$/;"	f	signature:(element_t e, search_tree_t * t)
+int16_t	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef short			int16_t;$/;"	t
+int32_t	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef int			int32_t;$/;"	t
+int8_t	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef signed char		int8_t;$/;"	t
+left	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	search_tree_t *left;$/;"	m	struct:tree_node_s	file:	access:public
+level	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	uint32_t level;$/;"	m	struct:tree_node_s	file:	access:public
+list	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	list_head_t  list;$/;"	m	struct:tree_node_s	file:	access:public
+list_add	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static __inline__ void list_add(struct list_head *_new, struct list_head *_head)$/;"	f	signature:(struct list_head *_new, struct list_head *_head)
+list_add	/home/tgni/workspace/weiss/solution/ch04/list.h	78;"	d
+list_add_tail	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static __inline__ void list_add_tail(struct list_head *_new, struct list_head *_head)$/;"	f	signature:(struct list_head *_new, struct list_head *_head)
+list_add_tail	/home/tgni/workspace/weiss/solution/ch04/list.h	98;"	d
+list_del	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static __inline__ void list_del(struct list_head *_entry)$/;"	f	signature:(struct list_head *_entry)
+list_del	/home/tgni/workspace/weiss/solution/ch04/list.h	141;"	d
+list_del_init	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static __inline__ void list_del_init(struct list_head *_entry)$/;"	f	signature:(struct list_head *_entry)
+list_del_init	/home/tgni/workspace/weiss/solution/ch04/list.h	159;"	d
+list_dir	/home/tgni/workspace/weiss/solution/ch04/avltree.c	/^void list_dir(AvlTree T)$/;"	f	signature:(AvlTree T)
+list_empty	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static __inline__ int list_empty(struct list_head *_head)$/;"	f	signature:(struct list_head *_head)
+list_empty	/home/tgni/workspace/weiss/solution/ch04/list.h	176;"	d
+list_empty_one	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static __inline__ int list_empty_one(struct list_head *_head)$/;"	f	signature:(struct list_head *_head)
+list_entry	/home/tgni/workspace/weiss/solution/ch04/list.h	227;"	d
+list_for_each	/home/tgni/workspace/weiss/solution/ch04/list.h	236;"	d
+list_for_each_reverse	/home/tgni/workspace/weiss/solution/ch04/list.h	240;"	d
+list_for_each_safe	/home/tgni/workspace/weiss/solution/ch04/list.h	251;"	d
+list_for_each_safe_reverse	/home/tgni/workspace/weiss/solution/ch04/list.h	255;"	d
+list_head	/home/tgni/workspace/weiss/solution/ch04/list.h	/^struct list_head {$/;"	s
+list_head::next	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+list_head::prev	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::	access:public
+list_head_t	/home/tgni/workspace/weiss/solution/ch04/list.h	/^typedef struct list_head list_head_t;$/;"	t	typeref:struct:list_head
+list_splice	/home/tgni/workspace/weiss/solution/ch04/list.h	/^static __inline__ void list_splice(struct list_head *list, struct list_head *head)$/;"	f	signature:(struct list_head *list, struct list_head *head)
+long_t	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef long			long_t;$/;"	t
+main	/home/tgni/workspace/weiss/solution/ch04/main.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	/home/tgni/workspace/weiss/solution/ch04/testavl.c	/^main( )$/;"	f
+make_empty	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^search_tree_t * make_empty(search_tree_t * t)$/;"	f	signature:(search_tree_t * t)
+mod_ceiling	/home/tgni/workspace/weiss/solution/ch04/types.h	63;"	d
+mod_floor	/home/tgni/workspace/weiss/solution/ch04/types.h	64;"	d
+name	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	char *name;$/;"	m	struct:stack_s	access:public
+next	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node	access:public
+next	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+nr	/home/tgni/workspace/weiss/solution/ch04/que.h	/^	int32_t nr;$/;"	m	struct:que_s	access:public
+nr	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	int32_t nr;$/;"	m	struct:stack_s	access:public
+ntohl	/home/tgni/workspace/weiss/solution/ch04/types.h	47;"	d
+ntohs	/home/tgni/workspace/weiss/solution/ch04/types.h	46;"	d
+offset	/home/tgni/workspace/weiss/solution/ch04/que.h	/^	int32_t offset;$/;"	m	struct:que_s	access:public
+offset	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	int32_t offset;$/;"	m	struct:stack_s	access:public
+offset_of	/home/tgni/workspace/weiss/solution/ch04/list.h	209;"	d
+pop	/home/tgni/workspace/weiss/solution/ch04/stack.c	/^void * pop(stack_t *s)$/;"	f	signature:(stack_t *s)
+position_t	/home/tgni/workspace/weiss/solution/ch04/tree.h	/^typedef struct tree_node_s position_t;$/;"	t	typeref:struct:tree_node_s
+pprev	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::	access:public
+prev	/home/tgni/workspace/weiss/solution/ch04/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::	access:public
+print_array	/home/tgni/workspace/weiss/solution/ch04/tool.c	/^void print_array(int v[], int n)$/;"	f	signature:(int v[], int n)
+print_e	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^void print_e(search_tree_t *t)$/;"	f	signature:(search_tree_t *t)
+print_tree	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^void print_tree(search_tree_t * t)$/;"	f	signature:(search_tree_t * t)
+push	/home/tgni/workspace/weiss/solution/ch04/stack.c	/^void push(stack_t *s, void *obj)$/;"	f	signature:(stack_t *s, void *obj)
+qqsort	/home/tgni/workspace/weiss/solution/ch04/tool.c	/^void qqsort(int v[], int left, int right)$/;"	f	signature:(int v[], int left, int right)
+que_init	/home/tgni/workspace/weiss/solution/ch04/que.c	/^void que_init(que_t *q, char *name, int32_t offset)$/;"	f	signature:(que_t *q, char *name, int32_t offset)
+que_s	/home/tgni/workspace/weiss/solution/ch04/que.h	/^typedef struct que_s {$/;"	s
+que_s::head	/home/tgni/workspace/weiss/solution/ch04/que.h	/^	struct list_head head;$/;"	m	struct:que_s	typeref:struct:que_s::list_head	access:public
+que_s::nr	/home/tgni/workspace/weiss/solution/ch04/que.h	/^	int32_t nr;$/;"	m	struct:que_s	access:public
+que_s::offset	/home/tgni/workspace/weiss/solution/ch04/que.h	/^	int32_t offset;$/;"	m	struct:que_s	access:public
+que_s::thd	/home/tgni/workspace/weiss/solution/ch04/que.h	/^	int32_t thd;$/;"	m	struct:que_s	access:public
+que_t	/home/tgni/workspace/weiss/solution/ch04/que.h	/^} que_t;$/;"	t	typeref:struct:que_s
+right	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	search_tree_t *right;$/;"	m	struct:tree_node_s	file:	access:public
+search_tree_t	/home/tgni/workspace/weiss/solution/ch04/tree.h	/^typedef struct tree_node_s search_tree_t;$/;"	t	typeref:struct:tree_node_s
+shuffle	/home/tgni/workspace/weiss/solution/ch04/tool.c	/^void shuffle(int v[], int n)$/;"	f	signature:(int v[], int n)
+split_read_four	/home/tgni/workspace/weiss/solution/ch04/types.h	133;"	d
+split_read_two	/home/tgni/workspace/weiss/solution/ch04/types.h	104;"	d
+split_write_four	/home/tgni/workspace/weiss/solution/ch04/types.h	/^static __inline__ void split_write_four(uint8_t *addr, uint32_t four, uint8_t endian)$/;"	f	signature:(uint8_t *addr, uint32_t four, uint8_t endian)
+split_write_two	/home/tgni/workspace/weiss/solution/ch04/types.h	/^static __inline__ void split_write_two(uint8_t *addr, uint16_t two, uint8_t endian)$/;"	f	signature:(uint8_t *addr, uint16_t two, uint8_t endian)
+stack_init	/home/tgni/workspace/weiss/solution/ch04/stack.c	/^void stack_init(stack_t *s, char *name, int32_t offset)$/;"	f	signature:(stack_t *s, char *name, int32_t offset)
+stack_s	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^typedef struct stack_s {$/;"	s
+stack_s::head	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	list_head_t head;$/;"	m	struct:stack_s	access:public
+stack_s::name	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	char *name;$/;"	m	struct:stack_s	access:public
+stack_s::nr	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	int32_t nr;$/;"	m	struct:stack_s	access:public
+stack_s::offset	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	int32_t offset;$/;"	m	struct:stack_s	access:public
+stack_s::thd	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	int32_t thd;$/;"	m	struct:stack_s	access:public
+stack_t	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^} stack_t;$/;"	t	typeref:struct:stack_s
+swap	/home/tgni/workspace/weiss/solution/ch04/tool.c	/^void swap(int v[], int i, int j)$/;"	f	signature:(int v[], int i, int j)
+thd	/home/tgni/workspace/weiss/solution/ch04/que.h	/^	int32_t thd;$/;"	m	struct:que_s	access:public
+thd	/home/tgni/workspace/weiss/solution/ch04/stack.h	/^	int32_t thd;$/;"	m	struct:stack_s	access:public
+tree_node_s	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^typedef struct tree_node_s {$/;"	s	file:
+tree_node_s::dist	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	uint32_t dist;$/;"	m	struct:tree_node_s	file:	access:public
+tree_node_s::e	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	element_t e;$/;"	m	struct:tree_node_s	file:	access:public
+tree_node_s::left	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	search_tree_t *left;$/;"	m	struct:tree_node_s	file:	access:public
+tree_node_s::level	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	uint32_t level;$/;"	m	struct:tree_node_s	file:	access:public
+tree_node_s::list	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	list_head_t  list;$/;"	m	struct:tree_node_s	file:	access:public
+tree_node_s::right	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^	search_tree_t *right;$/;"	m	struct:tree_node_s	file:	access:public
+tree_node_t	/home/tgni/workspace/weiss/solution/ch04/tree.c	/^} tree_node_t;$/;"	t	typeref:struct:tree_node_s	file:
+uint16_t	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef unsigned short		uint16_t;$/;"	t
+uint32_t	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef unsigned int		uint32_t;$/;"	t
+uint8_t	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef unsigned char		uint8_t;$/;"	t
+ulong_t	/home/tgni/workspace/weiss/solution/ch04/types.h	/^typedef unsigned long		ulong_t;$/;"	t
