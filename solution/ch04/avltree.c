@@ -186,22 +186,24 @@ AvlTree Insert( ElementType X, AvlTree T )
 		if( X < T->Element )
 		{
 			T->Left = Insert( X, T->Left );
-			if( Height( T->Left ) - Height( T->Right ) == 2 )
+			if ( Height( T->Left ) - Height( T->Right ) == 2 ) {
 				if( X < T->Left->Element )
 					T = SingleRotateWithLeft( T );
 				else
 					T = DoubleRotateWithLeft( T );
+			}
 		}
 		else 
 		{
 			if( X > T->Element )
 			{
 				T->Right = Insert( X, T->Right );
-				if( Height( T->Right ) - Height( T->Left ) == 2 )
+				if( Height( T->Right ) - Height( T->Left ) == 2 ) {
 					if( X > T->Right->Element )
 						T = SingleRotateWithRight( T );
 					else
 						T = DoubleRotateWithRight( T );
+				}
 			}
 		}
 	}
@@ -234,7 +236,7 @@ AvlTree LoopInsert(ElementType X, AvlTree T)
 	stack_t S;
 	AvlTree P, Q;
 	int IsRotate = FALSE;
-	
+
 	stack_init(&S, "insertion path stack", offset_of(AvlNode_t, List));
 
 	while (T) {
@@ -306,7 +308,6 @@ AvlTree LoopInsert(ElementType X, AvlTree T)
 void ComputeDistAndDepth( AvlTree T )
 {
 	que_t que;
-	int Depth, Dist;
 
 	if (T == NULL)
 		return;

@@ -1,4 +1,4 @@
-cscope 15 $HOME/workspace/weiss/solution/ch05 -q 0000000082 0000009018
+cscope 15 $HOME/ds_ana/solution/ch05 -q 0000000080 0000009195
 	@fatal.h
 
 1 
@@ -1676,7 +1676,7 @@ EËm’tTy³
  
 Key
 , 
-cŞlsiÚ
+cŞlisiÚ
 , 
 TabËSize
 )
@@ -1688,7 +1688,7 @@ Key
 , 
 TabËSize
 è+ 
-cŞlosiÚ
+cŞlisiÚ
  * (7 - (Key % 7))) % TableSize;
 
 52 
@@ -1873,7 +1873,43 @@ H
 	`´štf
 ("\n");
 
+95 
+i
+ = 0; i < 10; ++i)
+
 96 
+H
+[
+i
+] = 
+EMPTY
+;
+
+98 
+	`´štf
+("Second hash:");
+
+99 
+i
+ = 0; i < 7; ++i)
+
+100 
+	`´štf
+("%u ", 
+	`SecÚdIn£¹
+(
+A
+[
+i
+], 
+H
+, 10));
+
+102 
+	`´štf
+("\n");
+
+105 
 	}
 }
 

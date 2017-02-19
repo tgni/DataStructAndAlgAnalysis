@@ -1,8 +1,16 @@
+ROOT=..
+PLATFORM=$(shell $(ROOT)/systype.sh)
+include $(ROOT)/Make.defines.$(PLATFORM)
 
-.PHONY: all clean 
+PROGS = run
+O_FILES = main.o hashquad.o
 
-all:
-	gcc main.c hashfunc.c hashsep.c -o test -lm -std=c99
+all:	$(PROGS)
+
+$(PROGS):	$(O_FILES)
+		$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS) $(LDLIBS) $(LIBM)
 
 clean:
-	rm -rf *.o test
+	rm -f $(PROGS) $(TEMPFILES) *.o
+
+include $(ROOT)/Make.libtool.inc

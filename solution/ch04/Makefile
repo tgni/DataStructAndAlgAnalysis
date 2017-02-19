@@ -1,8 +1,16 @@
+ROOT=..
+PLATFORM=$(shell $(ROOT)/systype.sh)
+include $(ROOT)/Make.defines.$(PLATFORM)
 
-.PHONY: all clean 
+#PROGS = main avltree que stack 
+PROGS = run 
 
-all:
-	gcc tool.c que.c stack.c avltree.c main.c -o test -lm -std=c99
+all:	$(PROGS)
+
+$(PROGS):	$(LIBTOOL) main.o avltree.o que.o stack.o
+		$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS) $(LDLIBS) $(LIBM)
 
 clean:
-	rm -rf *.o test
+	rm -f $(PROGS) $(TEMPFILES) *.o
+
+include $(ROOT)/Make.libtool.inc
