@@ -7,7 +7,7 @@ PROGS = run
 
 all:	$(PROGS)
 
-$(PROGS):	$(LIBTOOL) main.o avltree.o que.o stack.o
+$(PROGS):	$(LIBTOOL) main.o avltree.o
 		$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS) $(LDLIBS) $(LIBM)
 
 clean:

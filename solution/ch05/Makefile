@@ -7,7 +7,7 @@ O_FILES = main.o hashquad.o
 
 all:	$(PROGS)
 
-$(PROGS):	$(O_FILES)
+$(PROGS):	$(O_FILES) $(LIBTOOL)
 		$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS) $(LDLIBS) $(LIBM)
 
 clean:

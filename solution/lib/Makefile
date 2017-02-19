@@ -6,7 +6,7 @@ PLATFORM=$(shell $(ROOT)/systype.sh)
 include $(ROOT)/Make.defines.$(PLATFORM)
 
 LIBMISC = libtool.a
-OBJS    = tool.o
+OBJS    = tool.o que.o stack.o
 
 all:	$(LIBMISC)
 
