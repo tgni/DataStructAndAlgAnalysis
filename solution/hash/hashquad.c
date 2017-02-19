@@ -156,3 +156,8 @@
             free( H->TheCells );
             free( H );
         }
+
+	int GetTableSize( HashTable H )
+	{
+		return H->TableSize;
+	}

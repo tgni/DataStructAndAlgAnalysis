@@ -17,7 +17,13 @@ int main(int argc, char *argv[])
 		Insert(A[i], H);
 
 	for (i = 0; i < NELEMS(A); ++i)
-		printf("Element: %d Position: %d\n", A[i], Find(A[i], H));
+		printf("Element: %-8d Position: %-8d\n", A[i], Find(A[i], H));
+	
+	H = Rehash(H);
+	printf("After rehash, TableSize: %d\n", GetTableSize(H));
+
+	for (i = 0; i < NELEMS(A); ++i)
+		printf("Element: %-8d Position: %-8d\n", A[i], Find(A[i], H));
 
 	return 0;
 }

@@ -17,6 +17,7 @@ typedef int ElementType;
         void Insert( ElementType Key, HashTable H );
         ElementType Retrieve( Position P, HashTable H );
         HashTable Rehash( HashTable H );
+	int GetTableSize(HashTable H);
         /* Routines such as Delete are MakeEmpty are omitted */
 
         #endif  /* _HashQuad_H */

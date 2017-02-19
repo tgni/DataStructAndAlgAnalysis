@@ -1,4 +1,4 @@
-DIRS = lib ch04 ch05
+DIRS = lib tree hash 
 
 all:
 	for i in $(DIRS); do \
